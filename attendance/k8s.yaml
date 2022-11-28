@@ -19,7 +19,7 @@ spec:
         app: empms-attendance
     spec:
       containers:
-      - image: vishnu99docker/attendance
+      - image: vishnu99docker/attendance:latest
         imagePullPolicy: Always
         name: empms-attendance
         ports:
