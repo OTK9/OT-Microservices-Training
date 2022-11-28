@@ -19,7 +19,7 @@ spec:
         app: empms-salary
     spec:
       containers:
-      - image: 702037529261.dkr.ecr.us-west-2.amazonaws.com/salary-microservice
+      - image: vishnu99docker/salary
         imagePullPolicy: Always
         name: empms-salary
         ports:
