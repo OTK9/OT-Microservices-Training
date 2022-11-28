@@ -19,7 +19,7 @@ spec:
         app: empms-employee
     spec:
       containers:
-      - image: vishnu99docker/employee
+      - image: vishnu99docker/employee:latest
         imagePullPolicy: Always
         name: empms-employee
         ports:
