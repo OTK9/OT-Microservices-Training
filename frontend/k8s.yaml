@@ -19,7 +19,7 @@ spec:
         app: empms-frontend
     spec:
       containers:
-      - image: 702037529261.dkr.ecr.us-west-2.amazonaws.com/frontend-microservice
+      - image: vishnu99docker/frontend
         imagePullPolicy: Always
         name: empms-frontend
         ports:
