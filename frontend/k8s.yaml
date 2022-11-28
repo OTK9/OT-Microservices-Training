@@ -19,7 +19,7 @@ spec:
         app: empms-frontend
     spec:
       containers:
-      - image: vishnu99docker/frontend
+      - image: vishnu99docker/frontend:latest
         imagePullPolicy: Always
         name: empms-frontend
         ports:
