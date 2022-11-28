@@ -19,7 +19,7 @@ spec:
         app: empms-es
     spec:
       containers:
-      - image: opstree/empms-es:0.1
+      - image: vishnu99docker/elasticsearch:latest
         imagePullPolicy: Always
         name: empms-es
         ports:
